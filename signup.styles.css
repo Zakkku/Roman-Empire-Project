@@ -30,13 +30,17 @@ body > h1 {
 }
 
 body > h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Fondamento', cursive;
     color:cornsilk;
 }
 
 @media only screen and (max-width: 700px) {
    body > h1 {
-    font-size: 60px;
+    font-size: 40px;
+   }
+
+   #form-container {
+    margin-top: 40px;
    }
   }
